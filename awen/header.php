@@ -44,6 +44,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+
 	<!--Facebook SDK-->
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
@@ -84,11 +85,9 @@
 						</button>
 					
 						<div id="navbar-logo">
-							<?php if(is_home()) echo "<h1 id='logo-title'>";?>
 							<a id="logo" href="<?php echo get_bloginfo('url');?>">
 								<span class='access'>Awen</span>
 							</a>
-							<?php if(is_home()) echo "</h1>";?>
 						</div>
 					</div><!--navbar-header-->
 					
